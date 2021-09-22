@@ -1,6 +1,6 @@
 # DevOpsRepo
 
-Agile vs Devops
+				Agile vs Devops
 
 Agile is an iterative approach to project management and software development that focuses on collaboration, customer feedback, and rapid releases
 In an agile approach, some planning and design is done upfront, but the development proceeds in small batches and involves close collaboration with stakeholders. 
@@ -15,7 +15,7 @@ to build and maintain the infrastructure where it runs. DevOps replaces the old 
 over the wall to an operations team who deploys and manages the software with minimal visibility into how it was developed. In a DevOps environment, 
 developers and operations teams work side by side throughout the entire process of developing, deploying, and managing applications. 
 
-CI, Continuous Delivery & Continuous Deployment
+				CI, Continuous Delivery & Continuous Deployment
 
 CI deals with maintaining your code repository in a remote service from which developers practicing continuous integration merge their changes back to the main branch as often as possible. 
 The developer's changes are validated by creating a build and running automated tests against the build. 
@@ -29,20 +29,21 @@ Continuous deployment goes one step further than continuous delivery. With this 
 all stages of your production pipeline is released to your customers. 
 There's no human intervention, and only a failed test will prevent a new change to be deployed to production.
 
-Benefits of Cloud Computing
+				Benefits of Cloud Computing
 
 Once the data is stored in the cloud, it is easier to get back-up and restore that data using the cloud.
-
 Cloud applications improve collaboration by allowing groups of people to quickly and easily share information in the cloud via shared storage.
-
 Cloud allows us to quickly and easily access store information anywhere, anytime in the whole world, using an internet connection. An internet cloud infrastructure increases organization productivity and efficiency by ensuring that our data is always accessible.
-
 Cloud computing reduces both hardware and software maintenance costs for organizations.
-
 Cloud computing allows us to easily access all cloud data via mobile.
-
 Cloud computing offers Application Programming Interfaces (APIs) to the users for access services on the cloud and pays the charges as per the usage of service.
-
 Cloud offers us a huge amount of storing capacity for storing our important data such as documents, images, audio, video, etc. in one place.
-
 Data security is one of the biggest advantages of cloud computing. Cloud offers many advanced features related to security and ensures that data is securely stored and handled.
+
+				Git vs Github
+
+Git is a distributed peer-peer version control system. Each node in the network is a peer, storing entire repositories which can also act as a multi-node distributed back-ups. There is no specific concept of a central server although nodes can be head-less or 'bare', taking on a role similar to the central server in centralised version control systems.
+
+Github provides access control and several collaboration features such as wikis, task management, and bug tracking and feature requests for every project.
+You do not need GitHub to use Git.
+GitHub (and any other local, remote or hosted system) can all be peers in the same distributed versioned repositories within a single project.
