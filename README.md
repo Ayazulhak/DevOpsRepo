@@ -49,6 +49,7 @@ You do not need GitHub to use Git.
 GitHub (and any other local, remote or hosted system) can all be peers in the same distributed versioned repositories within a single project.
 
 				Stages of Git
+				
 Untracked : We add a new file 
 Staging : we add that file to staging area : git add
 Local Repository: we add file to our local reposotory : git commit
