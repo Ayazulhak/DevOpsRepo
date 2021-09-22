@@ -28,3 +28,21 @@ This means that on top of automated testing, you have an automated release proce
 Continuous deployment goes one step further than continuous delivery. With this practice, every change that passes 
 all stages of your production pipeline is released to your customers. 
 There's no human intervention, and only a failed test will prevent a new change to be deployed to production.
+
+Benefits of Cloud Computing
+
+Once the data is stored in the cloud, it is easier to get back-up and restore that data using the cloud.
+
+Cloud applications improve collaboration by allowing groups of people to quickly and easily share information in the cloud via shared storage.
+
+Cloud allows us to quickly and easily access store information anywhere, anytime in the whole world, using an internet connection. An internet cloud infrastructure increases organization productivity and efficiency by ensuring that our data is always accessible.
+
+Cloud computing reduces both hardware and software maintenance costs for organizations.
+
+Cloud computing allows us to easily access all cloud data via mobile.
+
+Cloud computing offers Application Programming Interfaces (APIs) to the users for access services on the cloud and pays the charges as per the usage of service.
+
+Cloud offers us a huge amount of storing capacity for storing our important data such as documents, images, audio, video, etc. in one place.
+
+Data security is one of the biggest advantages of cloud computing. Cloud offers many advanced features related to security and ensures that data is securely stored and handled.
