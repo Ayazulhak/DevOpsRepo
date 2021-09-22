@@ -47,3 +47,10 @@ Git is a distributed peer-peer version control system. Each node in the network 
 Github provides access control and several collaboration features such as wikis, task management, and bug tracking and feature requests for every project.
 You do not need GitHub to use Git.
 GitHub (and any other local, remote or hosted system) can all be peers in the same distributed versioned repositories within a single project.
+
+				Stages of Git
+Untracked : We add a new file 
+Staging : we add that file to staging area : git add
+Local Repository: we add file to our local reposotory : git commit
+Remote Repository: we add add file to our remote repository : git push/git pull
+git checkout to get changes to out working repository	
