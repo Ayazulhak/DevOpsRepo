@@ -54,3 +54,10 @@ Staging : we add that file to staging area : git add
 Local Repository: we add file to our local reposotory : git commit
 Remote Repository: we add add file to our remote repository : git push/git pull
 git checkout to get changes to out working repository	
+
+				3 methods of git reset
+
+Remove the commit from local repo, and also remove changes from staging area : Mixed
+Remove the commit from local repo, but keep the les in staging area : Soft
+Remove the commit from local repo, and staging area and even change the local files : Hard
+ 
