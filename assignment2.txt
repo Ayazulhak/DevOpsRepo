@@ -17,4 +17,21 @@ Docker only needs to be installed and it is ready to use
 It contains much less space and works same on diferent machines since it is kind of like a package
 Docker container can scale very easily
 
+				Docker Architecture
+
+Docker has thre main components
+
+1 - Client 
+This is cli where the commands are running to run or pull the docker containers
+
+2 - Daemon
+This is the host which deals with the docker image and responsible for running images in container
+cli gives commands to daemon and then it manipulates the docker image and  run them as containers
+Containers are the runtime instance of an docker image
+It is running on OS and communicating with OS
+
+3- Docker Registry
+It is the repository for docker images
+When you pull a image it checks localy and if not found it pulls it from the registory
+you can also create and push images to the registry
 
