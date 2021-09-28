@@ -1,4 +1,59 @@
-# DevOpsRepo
+#Assignment 2
+
+				VMs vs Docker Containers
+
+VM acts as physical computer as it uses physical resources of the underlying hardware of the computer it is running on.
+VM has their own OS , also vm has full copyy of OS , application and liberaries etc
+Since it uses all the resources and have its own applications, it can take up Gbs of space
+VM is standalone os itself, it uses have high resource usage
+There is alot to be done when running VMs since it requires set of softwares and dependencies to be installed to make the apps work
+It may work on one machine and not on another due to compatibility issues on different OS
+
+Container is abstraction layer of apps and liberaries
+Containers they usualy take less space and it is isolated
+Container share the kernel of the os which means multiple containers share same kernel of os and it then talk to hardware
+Apps, liberaries and their dependenciew can be packaged into one conatiner
+There are many containers Docker is one of them
+Docker only needs to be installed and it is ready to use
+It contains much less space and works same on diferent machines since it is kind of like a package
+Docker container can scale very easily
+
+				Docker Architecture
+
+Docker has thre main components
+
+1 - Client 
+This is cli where the commands are running to run or pull the docker containers
+
+2 - Daemon
+This is the host which deals with the docker image and responsible for running images in container
+cli gives commands to daemon and then it manipulates the docker image and  run them as containers
+Containers are the runtime instance of an docker image
+It is running on OS and communicating with OS
+
+3- Docker Registry
+It is the repository for docker images
+When you pull a image it checks localy and if not found it pulls it from the registory
+you can also create and push images to the registry
+
+				Docker Commands for custom network
+
+docker container run -d --net assignment-2 -p 9090:80 --name assignment2 nginx
+docker container logs assignment2 
+docker container exec -it assignment2 bash
+/usr/share/nginx/html 
+cat index.html
+
+				Docker Commands for bind mounting
+
+docker container run -v /home/osboxes/Desktop/ayaz/persist:/usr/share/nginx/html -d -p 9090:80 --name assignment2 nginx
+docker container exec -it assignment2 bash
+/usr/share/nginx/html 
+cat > index.html
+I am docker expert and this data will be persisted for the next times
+
+#Assignment 1
+
 
 				Agile vs Devops
 
@@ -61,4 +116,3 @@ git checkout to get changes to out working repository
 Remove the commit from local repo, and also remove changes from staging area : Mixed
 Remove the commit from local repo, but keep the les in staging area : Soft
 Remove the commit from local repo, and staging area and even change the local files : Hard
- 
