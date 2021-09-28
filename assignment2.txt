@@ -35,3 +35,17 @@ It is the repository for docker images
 When you pull a image it checks localy and if not found it pulls it from the registory
 you can also create and push images to the registry
 
+
+docker container run -d --net assignment-2 -p 9090:80 --name assignment2 nginx
+
+docker container logs assignment2 
+
+docker container exec -it assignment2 bash
+/usr/share/nginx/html 
+cat index.html
+
+docker container run -v /home/osboxes/Desktop/ayaz/persist:/usr/share/nginx/html -d -p 9090:80 --name assignment2 nginx
+docker container exec -it assignment2 bash
+/usr/share/nginx/html 
+cat > index.html
+I am docker expert and this data will be persisted for the next times
